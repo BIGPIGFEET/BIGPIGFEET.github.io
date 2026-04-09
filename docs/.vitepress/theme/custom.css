@@ -1,0 +1,92 @@
+/* 学术风格浅蓝色主题 */
+
+:root {
+  /* 主色调 - 浅蓝色 */
+  --vp-c-brand-1: #6BA3D6;
+  --vp-c-brand-2: #5A93C6;
+  --vp-c-brand-3: #4A83B6;
+  --vp-c-brand-soft: #E8F4FC;
+
+  /* 背景色 */
+  --vp-c-bg: #FAFCFE;
+  --vp-c-bg-soft: #F0F6FC;
+  --vp-c-bg-mute: #E8F0F8;
+
+  /* 文字色 */
+  --vp-c-text-1: #1A2A3A;
+  --vp-c-text-2: #4A5A6A;
+  --vp-c-text-3: #7A8A9A;
+
+  /* 边框 */
+  --vp-c-border: #D0E0F0;
+
+  /* 字体 */
+  --vp-font-family-base: 'Georgia', 'Noto Serif SC', serif;
+  --vp-font-family-mono: 'Fira Code', 'Consolas', monospace;
+
+  /* 滚动条 */
+  --vp-scrollbar-track-bg: var(--vp-c-bg-soft);
+  --vp-scrollbar-thumb-bg: var(--vp-c-brand-soft);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vp-scrollbar-track-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--vp-c-brand-soft);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-brand-1);
+}
+
+/* 导航栏 */
+.VPNav {
+  background: var(--vp-c-bg) !important;
+  border-bottom: 1px solid var(--vp-c-border) !important;
+}
+
+.VPNavBar {
+  background: var(--vp-c-bg) !important;
+}
+
+/* 侧边栏 */
+.VPSidebar {
+  background: var(--vp-c-bg-soft) !important;
+  border-right: 1px solid var(--vp-c-border) !important;
+}
+
+/* 链接 */
+a {
+  color: var(--vp-c-brand-2);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--vp-c-brand-1);
+}
+
+/* 代码块 */
+div[class*='language-'] {
+  background: var(--vp-c-bg-soft) !important;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+}
+
+/* 标题样式 */
+h1, h2, h3, h4 {
+  font-family: var(--vp-font-family-base);
+  color: var(--vp-c-text-1);
+}
+
+/* 内容区域 */
+.VPDoc .container {
+  max-width: 1000px !important;
+}
