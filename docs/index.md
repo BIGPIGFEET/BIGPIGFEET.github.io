@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "BIGPIGFEET"
-  text: "学习者"
-  tagline: 正在学习大模型与计算机视觉
+  text: "一位仍于学海中游泳的学习者"
+  tagline: 当前正对大模型/CV感兴趣
   actions:
     - theme: brand
       text: 关于我
