@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: "你的名字"
-  text: "研究者 / 学习者"
-  tagline: 专注于大模型与计算机视觉领域的学习与研究
+  name: "BIGPIGFEET"
+  text: "学习者"
+  tagline: 正在学习大模型与计算机视觉
   actions:
     - theme: brand
       text: 关于我

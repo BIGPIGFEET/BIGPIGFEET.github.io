@@ -9,6 +9,7 @@ export default defineConfig({
     // 顶部导航
     nav: [
       { text: '个人主页', link: '/' },
+      { text: '个人简介', link: '/about' },
       { text: '笔记', link: '/notes/' }
     ],
 
