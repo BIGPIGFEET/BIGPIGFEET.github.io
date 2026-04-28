@@ -36,4 +36,3 @@
 - **GitHub**: [BIGPIGFEET](https://github.com/BIGPIGFEET)
 - **TJ邮箱**: 2253157@tongji.edu.cn
 - **QQ邮箱**: 1836863576@qq.com
-- **X(Twitter)**: [muzi](https://x.com/zimu837035)
